@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Search Pro</title><meta name="description" content="VuePress Client Search plugin">
+    <link rel="preload" href="/assets/style-N2c0xALt.css" as="style"><link rel="stylesheet" href="/assets/style-N2c0xALt.css">
+    <link rel="modulepreload" href="/assets/app-DsmM2ODs.js"><link rel="modulepreload" href="/assets/404.html-BRwygqxZ.js">
+    <link rel="prefetch" href="/assets/index.html-LNuWQkBz.js" as="script"><link rel="prefetch" href="/assets/demo.html-BNqABWOP.js" as="script"><link rel="prefetch" href="/assets/example.html-pxZaaBIA.js" as="script"><link rel="prefetch" href="/assets/single.html-D7xdl2oW.js" as="script"><link rel="prefetch" href="/assets/tagwithoutTitle.html-ptiUuu9x.js" as="script"><link rel="prefetch" href="/assets/zh.html-Df0ityz9.js" as="script"><link rel="prefetch" href="/assets/SearchResult-D-jpNahh.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-DVzwMGRJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-fbbad954><main class="page" data-v-fbbad954><div class="theme-default-content" vp-content data-v-fbbad954><h1 data-v-fbbad954>404</h1><blockquote data-v-fbbad954>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-fbbad954>Take me home</a></div></main></div><!--[--><!----><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DsmM2ODs.js" defer></script>
+  </body>
+</html>
